@@ -1,0 +1,4 @@
+ACGT
+CT
+AAGG
+AGAG

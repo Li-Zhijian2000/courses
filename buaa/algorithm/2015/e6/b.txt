@@ -1,0 +1,7 @@
+3 10
+abcdefg
+ACG
+PenPineappleApplePen
+2 10
+AC
+WA

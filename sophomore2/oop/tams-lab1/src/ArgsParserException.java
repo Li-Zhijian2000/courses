@@ -1,0 +1,3 @@
+class ArgsParserException extends Exception {
+
+}

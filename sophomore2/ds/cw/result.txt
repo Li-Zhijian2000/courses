@@ -1,0 +1,23 @@
+0.95065
+
+harry 1672
+s 1190
+said 1177
+t 719
+ron 703
+hermione 315
+d 209
+lockhart 200
+ve 195
+hagrid 194
+
+harry 2077
+s 1581
+said 1509
+t 894
+ron 799
+hermione 634
+lupin 422
+professor 395
+black 394
+d 297

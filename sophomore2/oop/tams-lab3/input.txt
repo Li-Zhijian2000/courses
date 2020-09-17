@@ -1,0 +1,52 @@
+cid 1
+cid 53010219200508011X
+np ww53010219200508011X
+np ww 53010219200508011X
+gc -id BH000001
+nc BH000001 OOP [A,L] 120
+nc BH000011 PPI [A,S] 100
+nc BH000021 IO [A] 200
+nc BH000000 YYU [T,P] 120
+nc BH000000 IU [p] 100
+nc BH000002 IU [P] 100
+nc BH002000 OO [A1,P] 200
+nc BH002000 OO) [A,P] 200
+nc BH000000 OO) [A] 100
+nc BH002000 OO [A,L] -1
+nc BH002000 pp [A,l] 0
+ls
+gc -id bh000000
+nc BH000900 AS [] 100
+ls
+gc -key p 1 3
+n
+gc -key 0 2 1
+gc -key o 2 1
+l
+n
+n
+gc -key a 1 1
+q
+q
+gc -all 1 3
+n
+n
+n
+gc -all 1 9 
+n
+udc Bh000000 -n OOPO
+ls
+udc Bh000000 -n OO_
+udc Bh000000 -n 001
+udc Bh000000 -c 100
+udc Bh000000 -c -1
+udc 1 -c 100
+udc Bh000000 -t []
+ls
+udc BH000000 -t [A]
+udc BH000000 -t [A1]
+udc BH000000 -t [A!]
+udc BH000000 -t
+udc BH000000 -t [,
+udc BH000000 -t [,]
+QUIT

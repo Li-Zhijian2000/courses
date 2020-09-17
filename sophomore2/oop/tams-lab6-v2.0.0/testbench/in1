@@ -1,0 +1,163 @@
+SUDO 1
+QUIT 1
+SUDO
+n
+nc
+nc 1
+nc 12345678 java [12345,54301,02315] 100
+nc bh1234567 java [12345,54301,02315] 100
+nc bh1234567b java [12345,54301,02315] 100
+nc bh12345679 java [12345,54301,023155] 1
+nc bh12345679 java [12345,54301,02315] a
+nc bh12345679 java [12345,54301,02315] 1.0
+nc bh12345679 java [12345,54301,02315] -1
+nc bh12345679 java [12345,54301,02315] 0
+nc bh12345679 java [12345,54301,02315] -1
+nc bH12345678 java [12345,54301,02315] 100 1
+nc bH12345678 java [12345,54301,02315] 100
+nc bh12345678 java [12345,54301,02315] 100
+nc Bh12345678 java [12345,54301,02315] 100
+nc bH12345678 java [12345,54301,02315] 100 1
+nc bH12345678 java [12345,54301,02315]
+nc bh12345670 ja [54301,02315] 1
+np
+np -t
+np -t tA 110101199003070731 02315
+np -a tA 110101199003070732 02315
+np -t tA 110101199003070732 02315 1
+np -t tA 110101199003070732 00002315
+np -t tA 110101199003070732 02315
+np -t tA 110101199003070732 02316
+np -t tA 110101199003079390 02315
+np -s sA 110101199003070732 17370001
+np -s sA 110101199003079390 17370
+np -s sA 110101199003079390 17370001
+np -s sA 110101199003079390 17370001
+np -s sC 110101199003079139 17370001
+np -s sC 110101199003079139 17370000
+gc -key java 1 1
+gc -all 1 1
+clist bH12345678 1 1
+q
+back 1
+back
+login
+login -t 110101199003070732
+login -t 110101199003070732 a12345 1
+login -t 110101199003070732 a1234
+login -s 110101199003070732 a12345
+login -t 110101199003070732 a12345
+gc -a Bh12345678
+gc -id Bh12345678 1
+gc -key j 1 1 1
+gc -key j 1 a
+gc -key j 1.0 1
+gc -key j 0 0
+gc -all 1 10 1
+gc -id Bh12345678
+gc -id Bh12345679
+gc -id Bh1234567
+q
+gc -key j 1 10
+l
+gc -key j 1 2
+n
+l
+n
+n
+gc -key j 1 2
+n
+q
+gc -key javaa 1 10
+gc -all 1 10
+q
+myinfo 1
+myinfo
+myc 1 10 1
+myc 1 1
+n
+q
+myc a a
+myc 1.0 2
+myc 0 0
+myc 1 2
+l
+myc 1 10
+n
+q
+clist
+clist BH12345678 1
+clist BH12345678 1 1 1
+clist BH12345678 1 a
+clist BH12345678 0 0
+clist BH1234567c 1 1
+clist BH12345678 1 10
+n
+chgpw aaaaa1
+chgpw aaaaaa aaaaaa
+chgpw aaaaa1* aaaaa1*
+chgpw aaaaa1* aaaaa1* 1
+chgpw a1 a1
+chgpw aaaaaaaaaaaaaaaaaaaa1* aaaaaaaaaaaaaaaaaaaa1* 
+chgpw aaaaa1 aaaaa2
+back
+login -t 110101199003070732 a12345
+login -t 110101199003070732 a1
+login -t 110101199003070732 aaaaa1
+login -t 110101199003070732 Aaaaa1*
+login -t 110101199003070732 aaaaa1*
+back
+back
+login -s 110101199003079390 a12345
+myinfo
+getc
+getc BH12345678 1
+getc BH12345673
+getc BH12345678
+myc 1 1
+n 1
+myc 1 10
+q
+myc 1 1
+l
+myc 1 -1
+myc -1 1
+myc a 1
+myc 
+myc 1 1 1
+dropc
+dropc bh12345678 1
+dropc bh12345677
+dropc bh1234567
+Dropc bh12345678
+dropc bh12345678
+myc 1 10
+dropc bh12345678
+getc BH12345678
+getc BH12345670
+getc BH12345670
+back
+login -s 110101199003079139 a12345
+myinfo
+getc BH12345678
+getc BH12345670
+dropc BH12345670
+gc -all 1 10
+q
+myc 1 10
+q 1
+back
+login -t 110101199003070732 aaaaa1*
+clist BH12345670 1 10
+q
+clist BH12345678 1 10
+q
+SUDO
+back
+SUDO
+np -t tB 110101199003071313 12345
+back
+login -t 110101199003071313 a12345
+myc 1 10
+QUIT
+QUIT

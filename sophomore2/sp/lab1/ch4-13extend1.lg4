@@ -1,0 +1,38 @@
+model:
+
+    sets:
+        quarters/1..6/: dm, dp, p, td, t;
+        V/1..2/:;
+        Matrix(quarters, V): m;
+    endsets
+    min = @sum(quarters: p * t) * 0.5 + 0.5 * (50000 * x + 20000 * y + 5000 * z);
+    
+    @for(quarters(i): t(i) = m(i,1)*dm(i) + m(i,2)*dp(i));
+
+    @for(quarters: td = dm - dp);
+
+    x + y + z <= 30000;
+
+    600*x + 1200*y + 1050*z + td(1) = 1650 * 10000;
+
+    500*x + 200*y + 300*z + td(2) = 1250 * 10000;
+    
+    300*z + td(3) = 500*10000;
+  
+    200*y + td(4) = 200*10000;
+
+    500*x + td(5) = 600*10000;
+    
+    0.12*x + 0.2*y + 0.15*z + td(6) = 5000;
+
+    data:
+        p = 1000, 100, 10, 10, 10, 10;
+	    m = 1 0
+		    1 0
+            1 1
+		    1 0
+            0 1
+            0 1;
+    enddata
+
+end

@@ -1,0 +1,3 @@
+class IDFormatException extends Exception {
+
+}

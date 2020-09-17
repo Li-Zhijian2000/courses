@@ -1,0 +1,29 @@
+model:
+
+    sets:
+        quarters/1..4/: plane, idle_plane, coach, idle_coach, i, j, k;
+    endsets
+
+    min = @sum(quarters: i * plane) + 
+        @sum(quarters: j * coach)*20 + 
+        @sum(quarters: k * idle_coach);
+    
+    idle_plane(1) + 100 = 110;
+    idle_plane(2) + 150 = 80 + idle_plane(1) + plane(1);
+    idle_plane(3) + 150 = 120 + idle_plane(2) + plane(2);
+    idle_plane(4) + 200 = 120 + idle_plane(3) + plane(3);
+
+    300 + coach(1) + idle_coach(1) = 330;
+    450 + coach(2) + idle_coach(2) = 20*coach(1) + idle_coach(1);  
+    450 + coach(3) + idle_coach(3) = 240 + 20*coach(2) + idle_coach(2);  
+    600 + coach(4) + idle_coach(4) = 360 + 20*coach(3) + idle_coach(3);  
+
+    @for(quarters: @gin(plane); @gin(idle_plane); @gin(coach); @gin(idle_coach));
+
+    data:
+        i = 200, 195, 190, 185;
+        j = 10, 9.9, 9.8, 9.7;
+        k = 7, 6.9, 6.8, 6.7;
+    enddata
+
+end

@@ -1,0 +1,374 @@
+name: jw06 testing prototype
+description: ====【主要关注于新增指令的所有正常错误情况。不考察参数个数错误等奇怪错误；不考察学号教师号课程号非法等之前的测试点已经包含的错误。】====
+data:
+
+- SUDO
+
+# 以下考虑x和y的所有范围越界问题。注意到根据题面x、y均为正整数，因此不考虑越下界。 x \ in [1, 18], y \ in [1, 18]
+# 不考虑超过int最大范围的数据点。
+
+#   x<=18, y<=18, x<=y的数据是合法数据。
+- # x<=18, y<=18, x>y的数据如下：
+  - nc bh00000001 oop [10001,10002,10003] 100 [18-17]2,3
+  - Course add illegal.
+
+#   x>18, y<=18, x<=y的数据不存在。
+- # x>18, y<=18, x>y的数据如下：
+  - nc bh00000001 oop [10001,10002,10003] 100 [19-18]2,3
+  - Course add illegal.
+
+- # x<=18, y>18, x<=y的数据如下：
+  - nc bh00000001 oop [10001,10002,10003] 100 [18-19]2,3
+  - Course add illegal.
+#   x<=18, y>18, x>y的数据不存在。
+
+- # x>18, y>18, x<=y的数据如下：
+  - nc bh00000001 oop [10001,10002,10003] 100 [19-22]2,3
+  - Course add illegal.
+- # x>18, y>18, x>y的数据如下：
+  - nc bh00000001 oop [10001,10002,10003] 100 [25-22]2,3
+  - Course add illegal.
+
+
+
+# 以下考虑n和m的所有范围越界问题。注意到根据题面n、m均为正整数，因此不考虑越下界。 n \in [1, 7], m \in [1, 10]
+
+#   n<=7, m<=10的数据是合法数据。
+- # n>7, m<=10的数据如下：
+  - nc bh00000001 oop [10001,10002,10003] 100 [1-16]8,3
+  - Course add illegal.
+
+- # n<=7, m>10的数据如下：
+  - nc bh00000001 oop [10001,10002,10003] 100 [1-16]7,11
+  - Course add illegal.
+
+- # n>7, m>10的数据如下：
+  - nc bh00000001 oop [10001,10002,10003] 100 [1-16]8,11
+  - Course add illegal.
+
+
+
+
+# 正常添加课程、老师、学生。添加时均按各自主键的字典序给出测试数据。添加课程时，课程号和课程名称均蕴含了开课时间，以便于debug。注意添加课程时，课程的开课时间彼此之间可以有冲突。只是说某个学生选课的时候不能选冲突的课。
+
+- nc bh01010101 oop01010101 [10001,10002,10003] 100 [1-1]1,1
+- nc bh01020101 oop01020101 [10001,10002,10003] 100 [1-2]1,1
+- nc bh02020101 oop02020101 [10001,10002,10003] 100 [2-2]1,1
+- nc bh02080101 oop02080101 [10001,10002,10003] 100 [2-8]1,1
+- nc bh07090101 oop07090101 [10001,10002,10003] 100 [7-9]1,1
+- nc bh07110101 oop07110101 [10001,10002,10003] 100 [7-11]1,1
+- nc bh08100101 oop08100101 [10001,10002,10003] 100 [8-10]1,1
+- nc bh08100710 oop08100710 [10001,10002,10003] 100 [8-10]7,10
+- nc bh09090101 oop09090101 [10001,10002,10003] 100 [9-9]1,1
+- nc bh09110101 oop09110101 [10001,10002,10003] 100 [9-11]1,1
+- nc bh10170710 oop10170710 [10001,10002,10003] 100 [10-17]7,10
+- nc bh17170710 oop17170710 [10001,10002,10003] 100 [17-17]7,10
+- nc bh17180710 oop17180710 [10001,10002,10003] 100 [17-18]7,10
+- nc bh18180710 oop18180710 [10001,10002,10003] 100 [18-18]7,10
+
+
+-
+  - np -t ta 110107199901016891 10001
+  - Add teacher success.
+-
+  - np -t tc 110107199901017974 10003
+  - Add teacher success.
+-
+  - np -s sa 110107201905054262 17370001
+  - Add student success.
+-
+  - np -s sb 11010720190505182x 17370002
+  - Add student success.
+
+- back  # 退出SUDO
+- # 已退出SUDO，第一级菜单没有退出指令
+  - back
+  - Input illegal.
+
+
+
+# 测试学生正常登录、正常选课、选课冲突、gc和myc的新的输出格式（带时间）
+- # 学生a正常登录
+  - login -s 110107201905054262 a12345
+  - Login success.
+- # 学生a正常选课
+  - getc bh01010101
+  - Course chosen success.
+-
+  - getc bh02020101
+  - Course chosen success.
+-
+  - getc bh08100101
+  - Course chosen success.
+-
+  - getc bh08100710
+  - Course chosen success.
+-
+  - getc bh17170710
+  - Course chosen success.
+-
+  - getc bh18180710
+  - Course chosen success.
+- back # 学生a退出
+
+- # 学生b正常登录
+  - login -s 11010720190505182x a12345
+  - Login success.
+- # 学生b正常选课
+  - getc bh01010101
+  - Course chosen success.
+-
+  - getc bh02020101
+  - Course chosen success.
+-
+  - getc bh08100101
+  - Course chosen success.
+-
+  - getc bh08100710
+  - Course chosen success.
+-
+  - getc bh17170710
+  - Course chosen success.
+-
+  - getc bh18180710
+  - Course chosen success.
+
+# 学生b选课冲突测试
+- # 子集单冲突：和bh08100101冲突
+  - getc bh09090101
+  - Course time conflict.
+- # 交集单冲突：和bh08100101冲突
+  - getc bh07090101
+  - Course time conflict.
+- # 交集单冲突：和bh08100101冲突
+  - getc bh09110101
+  - Course time conflict.
+- # 超集单冲突：和bh08100101冲突
+  - getc bh07110101
+  - Course time conflict.
+
+- # 连续多冲突：和bh01010101、 bh02020101同时冲突
+  - getc bh01020101
+  - Course time conflict.
+- # 连续多冲突：和bh17170710、bh18180710同时冲突
+  - getc bh17180710
+  - Course time conflict.
+- # 间隔多冲突：和bh02020101、bh08100101同时冲突
+  - getc bh02080101
+  - Course time conflict.
+- # 间隔多冲突：和bh08100710、bh17170710同时冲突
+  - getc bh10170710
+  - Course time conflict.
+
+
+# 学生b gc和myc的新输出格式测试
+- # 检查gc -id
+  - gc -id bh01010101
+  - CID:bh01010101,Name:oop01010101,Teachers:[ta,10002,tc],Capacity:2/100,Time:[1-1]1,1
+- # 检查gc -key，这里是名字带有oop0的字典序前四门课，注意课程容量情况
+  - gc -key oop0 1 4
+  - |
+    Page:1
+    1.CID:bh01010101,Name:oop01010101,Teachers:[ta,10002,tc],Capacity:2/100,Time:[1-1]1,1
+    2.CID:bh01020101,Name:oop01020101,Teachers:[ta,10002,tc],Capacity:0/100,Time:[1-2]1,1
+    3.CID:bh02020101,Name:oop02020101,Teachers:[ta,10002,tc],Capacity:2/100,Time:[2-2]1,1
+    4.CID:bh02080101,Name:oop02080101,Teachers:[ta,10002,tc],Capacity:0/100,Time:[2-8]1,1
+    n-next page, l-last page, q-quit
+- q
+- # 检查gc -all，注意共有14门课，每页3门，所以第5页只显示最后2门。注意课程容量情况
+  - gc -all 5 3
+  - |
+    Page:5
+    1.CID:bh17180710,Name:oop17180710,Teachers:[ta,10002,tc],Capacity:0/100,Time:[17-18]7,10
+    2.CID:bh18180710,Name:oop18180710,Teachers:[ta,10002,tc],Capacity:2/100,Time:[18-18]7,10
+    n-next page, l-last page, q-quit
+- # 已经到最后一页了，检查一下页码越界
+  - n
+  - Course does not exist.
+- # 检查已经退出显示列表
+  - l
+  - Input illegal.
+
+- # 检查myc。注意课程容量
+  - myc 1 2
+  - |
+    Page:1
+    1.CID:bh01010101,Name:oop01010101,Teachers:[ta,10002,tc],Capacity:2/100,Time:[1-1]1,1
+    2.CID:bh02020101,Name:oop02020101,Teachers:[ta,10002,tc],Capacity:2/100,Time:[2-2]1,1
+    n-next page, l-last page, q-quit
+- q
+- back  # 学生b退出登录
+- # 学生b已退出登录，第一级菜单没有退出指令
+  - back
+  - Input illegal.
+
+
+
+
+# 测试老师正常登录、gc和myc的新的输出格式（带时间）
+- # 老师正常登录
+  - login -t 110107199901016891 a12345
+  - Login success.
+
+- # 检查gc -id
+  - gc -id bh18180710
+  - CID:bh18180710,Name:oop18180710,Teachers:[ta,10002,tc],Capacity:2/100,Time:[18-18]7,10
+- # 检查gc -key，这里是名字带有oop0的字典序第五到第八门课，注意课程容量情况
+  - gc -key oop0 2 4
+  - |
+    Page:2
+    1.CID:bh07090101,Name:oop07090101,Teachers:[ta,10002,tc],Capacity:0/100,Time:[7-9]1,1
+    2.CID:bh07110101,Name:oop07110101,Teachers:[ta,10002,tc],Capacity:0/100,Time:[7-11]1,1
+    3.CID:bh08100101,Name:oop08100101,Teachers:[ta,10002,tc],Capacity:2/100,Time:[8-10]1,1
+    4.CID:bh08100710,Name:oop08100710,Teachers:[ta,10002,tc],Capacity:2/100,Time:[8-10]7,10
+    n-next page, l-last page, q-quit
+- q
+- # 检查gc -all，这里应该是字典序前三门课
+  - gc -all 1 3
+  - |
+    Page:1
+    1.CID:bh01010101,Name:oop01010101,Teachers:[ta,10002,tc],Capacity:2/100,Time:[1-1]1,1
+    2.CID:bh01020101,Name:oop01020101,Teachers:[ta,10002,tc],Capacity:0/100,Time:[1-2]1,1
+    3.CID:bh02020101,Name:oop02020101,Teachers:[ta,10002,tc],Capacity:2/100,Time:[2-2]1,1
+    n-next page, l-last page, q-quit
+- # 已经到第一页了，检查一下页码越界
+  - l
+  - Course does not exist.
+- # 检查已经退出显示列表
+  - n
+  - Input illegal.
+
+- # 检查myc，注意输出和学生的myc 1 2不一样。因为老师开的bh01020101这门课没有学生选。
+  - myc 1 2
+  - |
+    Page:1
+    1.CID:bh01010101,Name:oop01010101,Teachers:[ta,10002,tc],Capacity:2/100,Time:[1-1]1,1
+    2.CID:bh01020101,Name:oop01020101,Teachers:[ta,10002,tc],Capacity:0/100,Time:[1-2]1,1
+    n-next page, l-last page, q-quit
+- q
+- back  # 教师退出登录
+- # 教师已退出登录，第一级菜单没有退出指令
+  - back
+  - Input illegal.
+
+
+
+
+# 测试学生a退学功能
+
+- SUDO
+- # bh01010101的选课列表目前有两名学生
+  - clist bh01010101 1 100
+  - |
+    Page:1
+    1.17370001,sa
+    2.17370002,sb
+    n-next page, l-last page, q-quit
+- q
+- back # 退出SUDO
+
+- # 学生a退学
+  - login -s 110107201905054262 a12345
+  - Login success.
+# - # TODO: 密码错误【由于pdf没有给出密码错误的对应输出，因此仅先预留此测试点】
+#   - DROPOUT a12346 a12346
+#   - ?????
+- # 两次密码输入不一致
+  - DROPOUT a12345 a12346
+  - The password you entered must be the same as the former one.
+- # 学生a退学成功
+  - DROPOUT a12345 a12345
+  - Congratulations, drop out successfully.
+- # 检查退学后是否已经自动返回了第一级命令行
+  - gc -id bh18180710
+  - Input illegal.
+
+
+- # 学生a无法登录
+  - login -s 110107201905054262 a12345
+  - Login Error. Your ID or password maybe wrong.
+- # 学生b可以登录
+  - login -s 11010720190505182x a12345
+  - Login success.
+- back  # 学生b退出登录
+
+
+- # 教师登录
+  - login -t 110107199901016891 a12345
+  - Login success.
+- # 教师gc，bh18180710的Capacity变为1
+  - gc -id bh18180710
+  - CID:bh18180710,Name:oop18180710,Teachers:[ta,10002,tc],Capacity:1/100,Time:[18-18]7,10
+- # 教师myc，bh01010101的Capacity也变为1（bh01020101仍为0因为本来就没人能选）
+  - myc 1 2
+  - |
+    Page:1
+    1.CID:bh01010101,Name:oop01010101,Teachers:[ta,10002,tc],Capacity:1/100,Time:[1-1]1,1
+    2.CID:bh01020101,Name:oop01020101,Teachers:[ta,10002,tc],Capacity:0/100,Time:[1-2]1,1
+    n-next page, l-last page, q-quit
+- q
+- back # 教师退出
+
+
+- SUDO
+- # bh01010101的选课列表只有学生b
+  - clist bh01010101 1 100
+  - |
+    Page:1
+    1.17370002,sb
+    n-next page, l-last page, q-quit
+- q
+- back # 退出SUDO
+
+
+
+
+# 测试学生b退学功能
+- # 学生b退学
+  - login -s 11010720190505182x a12345
+  - Login success.
+- # 学生b退学成功
+  - DROPOUT a12345 a12345
+  - Congratulations, drop out successfully.
+- # 检查退学后是否已经自动返回了第一级命令行
+  - gc -id bh18180710
+  - Input illegal.
+- # 学生b无法登录
+  - login -s 11010720190505182x a12345
+  - Login Error. Your ID or password maybe wrong.
+
+
+- # 教师登录
+  - login -t 110107199901016891 a12345
+  - Login success.
+- # 教师gc，bh18180710的Capacity变为0
+  - gc -id bh18180710
+  - CID:bh18180710,Name:oop18180710,Teachers:[ta,10002,tc],Capacity:0/100,Time:[18-18]7,10
+- # 教师myc，bh01010101的Capacity也变为0
+  - myc 1 2
+  - |
+    Page:1
+    1.CID:bh01010101,Name:oop01010101,Teachers:[ta,10002,tc],Capacity:0/100,Time:[1-1]1,1
+    2.CID:bh01020101,Name:oop01020101,Teachers:[ta,10002,tc],Capacity:0/100,Time:[1-2]1,1
+    n-next page, l-last page, q-quit
+- q
+- back # 教师退出
+
+
+- SUDO
+- # bh01010101的选课列表现在为空
+  - clist bh01010101 1 100
+  - Record does not exist.
+- # 因为学生a退学了，所以再入学不应该报错
+  - np -s sa 110107201905054262 17370001
+  - Add student success.
+- # 因为学生b退学了，所以再入学不应该报错
+  - np -s sb 11010720190505182x 17370002
+  - Add student success.
+- # 学生a已经入学，现在报错
+  - np -s sa 110107201905054262 17370001
+  - ID exists.
+- # 新入学还没选课，bh01010101的选课列表应该仍为空
+  - clist bh01010101 1 100
+  - Record does not exist.
+- QUIT # 不back，测试一下直接退出系统看看有没有问题

@@ -1,0 +1,7 @@
+nc BH000000 OOP [A,L] 120
+udc Bh000000 -n OOPO
+gc -id Bh000000
+udc Bh000000 -c 100
+gc -key PO
+udc BH000000 -t [zhijian,fadf]
+gc -key PO

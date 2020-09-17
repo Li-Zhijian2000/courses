@@ -1,0 +1,231 @@
+SUDO
+
+nc bh00114514 oop [10032,19090] 0
+nc bh00114522 Oop [19090,10033] 100
+nc bh00114518 oPo [19090,10033,10032] 100
+nc bh00114516 PpP [19090] 1
+nc bh00114528 ac [19090,10033] 100
+nc bh00114524 wa [19090,10033] 100
+nc bh00114520 tle [19090,10033,10034] 100
+
+np -t misaka 110101199003078670 19090
+np -t donma 110101199003075234 10033
+np -t kuroko 110101199003075736 10034
+
+np -s winharu 110101201103079910 18181818
+np -s saten 110101201103071134 19260817
+np -s indekusu 110101201103072057 20200202
+np -s akuserareta 110101201103077958 19198100
+np -s kungo 110101201103078053 12333333
+np -s lasutooda 110101201103075178 16666666
+np -s kazeki 110101201103070553 19293949
+
+udc bh00114514 -n oop6
+
+back
+
+login -t 110101199003078670 a12345
+
+gc -id bh00114514 
+
+back
+
+SUDO
+
+udc bh00114514 -n oop
+
+back
+
+login -t 110101199003078670 a12345
+
+gc -id bh00114514
+
+back
+
+SUDO
+
+udc bh00114516 -c 10
+
+back
+
+login -t 110101199003078670 a12345
+
+gc -id bh00114516 
+
+back
+
+SUDO
+
+udc bh00114516 -c 1
+
+back
+
+login -t 110101199003078670 a12345
+
+gc -id bh00114516
+
+back
+
+SUDO
+
+udc bh00114518 -t [19090]
+
+back
+
+login -t 110101199003078670 a12345
+
+gc -id bh00114518
+
+back
+
+SUDO
+
+udc bh00114518 -t [19090,10033,10032]
+
+back
+
+login -t 110101199003078670 a12345
+
+gc -id bh00114518
+
+back
+
+login -t 110101199003078670 a12345
+
+gc -id bh11111111
+
+gc -id bh00114520
+
+gc -key o 1 2
+
+q
+
+gc -key o 1 2
+
+n
+
+l
+
+l
+
+gc -key o 1 2
+
+n
+
+n
+
+n
+
+n
+
+back
+
+login -t 110101199003078670 a12345
+
+myc 1 1000
+
+q
+
+back
+
+login -s 110101201103079910 a12345
+
+getc bh12345678
+getc bh00114514
+
+getc bh00114516
+
+getc bh00114516
+
+myc 1 1000
+
+q
+
+back
+
+SUDO
+
+clist bh00114516 1 10
+
+q
+
+back
+
+login -s 110101201103079910 a12345
+
+dropc bh6
+
+dropc bh00114528
+
+dropc bh00114516
+
+myc 1 100
+
+getc bh00114518
+getc bh00114528
+getc bh00114520
+
+myc 1 1000
+
+q
+
+back
+
+login -s 110101201103072057 a12345
+
+getc bh00114518
+
+myc 1 100
+
+q
+
+back
+
+login -s 110101201103071134 a12345
+
+getc bh00114518
+
+back
+
+SUDO
+
+clist bh00114518 1 1000
+
+q
+
+nc Bh00114566 oop2333 [] 100
+
+nc bh00114560 oop6666 [] 100
+
+nc BH00114555 oop996 [] 100
+
+back
+
+login -t 110101199003078670 a12345
+
+gc -all 1 1000
+
+q
+
+back
+
+SUDO 
+
+nc bhK oop [10032,19090] 1
+nc bh12345678 _ [10032,19090] 1
+nc bh12345678 oop [10032,100012] 1
+nc bh12345678 oop [10032,10r0r] 1
+nc bh12345678 oop [10032,19090] -1
+nc bh00114514 oopi_ka [10032,19090,a90] -126
+udc bh00114999 -n oop_6
+udc bh00114514 -n oop_6
+udc bh00114999 -c 66
+udc bh00114514 -c gf
+udc bh00114514 -c -2000
+udc bh00114999 -t [19090]
+udc bh00114514 -t [19090,1000]
+udc bh00114514 -t [,19090]
+
+back
+
+QUIT

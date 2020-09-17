@@ -1,0 +1,16 @@
+server:
+    port: 8181
+
+spring:
+  application:
+    name: rent
+  h2:
+    console:
+      settings:
+        web-allow-others: true
+  mail:
+    host: smtp.163.com
+    port: 25
+    username: 13261806700@163.com
+    password: AHYZZJQTAMTUAWMF
+    default-encoding: UTF-8

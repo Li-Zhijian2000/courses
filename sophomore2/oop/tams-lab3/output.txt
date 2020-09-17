@@ -1,0 +1,106 @@
+false
+true
+Input illegal.
+Name:ww
+IDNum:53010219200508011X
+Sex:M
+Birthday:1920/05/08
+Course does not exist.
+Add success.
+Add success.
+Add success.
+Add success.
+Course exists.
+Add success.
+Course add illegal.
+Course add illegal.
+Course exists.
+Course add illegal.
+Add success.
+CID:BH000000,Name:YYU,Teachers:[T,P],Capacity:120
+CID:BH000001,Name:OOP,Teachers:[A,L],Capacity:120
+CID:BH000002,Name:IU,Teachers:[P],Capacity:100
+CID:BH000011,Name:PPI,Teachers:[A,S],Capacity:100
+CID:BH000021,Name:IO,Teachers:[A],Capacity:200
+CID:BH002000,Name:pp,Teachers:[A,l],Capacity:0
+CID:BH000000,Name:YYU,Teachers:[T,P],Capacity:120
+Add success.
+CID:BH000000,Name:YYU,Teachers:[T,P],Capacity:120
+CID:BH000001,Name:OOP,Teachers:[A,L],Capacity:120
+CID:BH000002,Name:IU,Teachers:[P],Capacity:100
+CID:BH000011,Name:PPI,Teachers:[A,S],Capacity:100
+CID:BH000021,Name:IO,Teachers:[A],Capacity:200
+CID:BH000900,Name:AS,Teachers:[],Capacity:100
+CID:BH002000,Name:pp,Teachers:[A,l],Capacity:0
+Page:1
+1.CID:BH000001,Name:OOP,Teachers:[A,L],Capacity:120
+2.CID:BH000011,Name:PPI,Teachers:[A,S],Capacity:100
+3.CID:BH002000,Name:pp,Teachers:[A,l],Capacity:0
+n-next page, l-last page, q-quit
+Course does not exist.
+Course does not exist.
+Page:2
+1.CID:BH000021,Name:IO,Teachers:[A],Capacity:200
+n-next page, l-last page, q-quit
+Page:1
+1.CID:BH000001,Name:OOP,Teachers:[A,L],Capacity:120
+n-next page, l-last page, q-quit
+Page:2
+1.CID:BH000021,Name:IO,Teachers:[A],Capacity:200
+n-next page, l-last page, q-quit
+Course does not exist.
+Page:1
+1.CID:BH000900,Name:AS,Teachers:[],Capacity:100
+n-next page, l-last page, q-quit
+Input illegal.
+Page:1
+1.CID:BH000000,Name:YYU,Teachers:[T,P],Capacity:120
+2.CID:BH000001,Name:OOP,Teachers:[A,L],Capacity:120
+3.CID:BH000002,Name:IU,Teachers:[P],Capacity:100
+n-next page, l-last page, q-quit
+Page:2
+1.CID:BH000011,Name:PPI,Teachers:[A,S],Capacity:100
+2.CID:BH000021,Name:IO,Teachers:[A],Capacity:200
+3.CID:BH000900,Name:AS,Teachers:[],Capacity:100
+n-next page, l-last page, q-quit
+Page:3
+1.CID:BH002000,Name:pp,Teachers:[A,l],Capacity:0
+n-next page, l-last page, q-quit
+Course does not exist.
+Page:1
+1.CID:BH000000,Name:YYU,Teachers:[T,P],Capacity:120
+2.CID:BH000001,Name:OOP,Teachers:[A,L],Capacity:120
+3.CID:BH000002,Name:IU,Teachers:[P],Capacity:100
+4.CID:BH000011,Name:PPI,Teachers:[A,S],Capacity:100
+5.CID:BH000021,Name:IO,Teachers:[A],Capacity:200
+6.CID:BH000900,Name:AS,Teachers:[],Capacity:100
+7.CID:BH002000,Name:pp,Teachers:[A,l],Capacity:0
+n-next page, l-last page, q-quit
+Course does not exist.
+Update success.
+CID:BH000000,Name:OOPO,Teachers:[T,P],Capacity:120
+CID:BH000001,Name:OOP,Teachers:[A,L],Capacity:120
+CID:BH000002,Name:IU,Teachers:[P],Capacity:100
+CID:BH000011,Name:PPI,Teachers:[A,S],Capacity:100
+CID:BH000021,Name:IO,Teachers:[A],Capacity:200
+CID:BH000900,Name:AS,Teachers:[],Capacity:100
+CID:BH002000,Name:pp,Teachers:[A,l],Capacity:0
+Update fail.
+Update success.
+Update success.
+Update fail.
+Course does not exist.
+Update success.
+CID:BH000000,Name:001,Teachers:[],Capacity:100
+CID:BH000001,Name:OOP,Teachers:[A,L],Capacity:120
+CID:BH000002,Name:IU,Teachers:[P],Capacity:100
+CID:BH000011,Name:PPI,Teachers:[A,S],Capacity:100
+CID:BH000021,Name:IO,Teachers:[A],Capacity:200
+CID:BH000900,Name:AS,Teachers:[],Capacity:100
+CID:BH002000,Name:pp,Teachers:[A,l],Capacity:0
+Update success.
+Input illegal.
+Input illegal.
+Input illegal.
+Input illegal.
+Input illegal.

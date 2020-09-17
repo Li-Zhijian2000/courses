@@ -1,0 +1,130 @@
+Add teacher success.
+Add teacher success.
+Add teacher success.
+Add student success.
+Add student success.
+Add student success.
+Add student success.
+Add student success.
+Add student success.
+Add student success.
+Update success.
+Login success.
+CID:bh00114514,Name:oop6,Teachers:[10032,misaka],Capacity:0/0
+Update success.
+Login success.
+CID:bh00114514,Name:oop,Teachers:[10032,misaka],Capacity:0/0
+Update success.
+Login success.
+CID:bh00114516,Name:PpP,Teachers:[misaka],Capacity:0/10
+Update success.
+Login success.
+CID:bh00114516,Name:PpP,Teachers:[misaka],Capacity:0/1
+Update success.
+Login success.
+CID:bh00114518,Name:oPo,Teachers:[misaka],Capacity:0/100
+Update success.
+Login success.
+CID:bh00114518,Name:oPo,Teachers:[10032,donma,misaka],Capacity:0/100
+Login success.
+Course does not exist.
+CID:bh00114520,Name:tle,Teachers:[donma,kuroko,misaka],Capacity:0/100
+Page:1
+1.CID:bh00114514,Name:oop,Teachers:[10032,misaka],Capacity:0/0
+2.CID:bh00114518,Name:oPo,Teachers:[10032,donma,misaka],Capacity:0/100
+n-next page, l-last page, q-quit
+Page:1
+1.CID:bh00114514,Name:oop,Teachers:[10032,misaka],Capacity:0/0
+2.CID:bh00114518,Name:oPo,Teachers:[10032,donma,misaka],Capacity:0/100
+n-next page, l-last page, q-quit
+Page:2
+1.CID:bh00114522,Name:Oop,Teachers:[donma,misaka],Capacity:0/100
+n-next page, l-last page, q-quit
+Page:1
+1.CID:bh00114514,Name:oop,Teachers:[10032,misaka],Capacity:0/0
+2.CID:bh00114518,Name:oPo,Teachers:[10032,donma,misaka],Capacity:0/100
+n-next page, l-last page, q-quit
+Course does not exist.
+Page:1
+1.CID:bh00114514,Name:oop,Teachers:[10032,misaka],Capacity:0/0
+2.CID:bh00114518,Name:oPo,Teachers:[10032,donma,misaka],Capacity:0/100
+n-next page, l-last page, q-quit
+Page:2
+1.CID:bh00114522,Name:Oop,Teachers:[donma,misaka],Capacity:0/100
+n-next page, l-last page, q-quit
+Course does not exist.
+Input illegal.
+Input illegal.
+Login success.
+Page:1
+1.CID:bh00114514,Name:oop,Teachers:[10032,misaka],Capacity:0/0
+2.CID:bh00114516,Name:PpP,Teachers:[misaka],Capacity:0/1
+3.CID:bh00114518,Name:oPo,Teachers:[10032,donma,misaka],Capacity:0/100
+4.CID:bh00114520,Name:tle,Teachers:[donma,kuroko,misaka],Capacity:0/100
+5.CID:bh00114522,Name:Oop,Teachers:[donma,misaka],Capacity:0/100
+6.CID:bh00114524,Name:wa,Teachers:[donma,misaka],Capacity:0/100
+7.CID:bh00114528,Name:ac,Teachers:[donma,misaka],Capacity:0/100
+n-next page, l-last page, q-quit
+Login success.
+Course does not exist.
+The course is full.
+Course chosen success.
+The course has been selected.
+Page:1
+1.CID:bh00114516,Name:PpP,Teachers:[misaka],Capacity:1/1
+n-next page, l-last page, q-quit
+Page:1
+1.18181818,winharu
+n-next page, l-last page, q-quit
+Login success.
+Course does not exist.
+The course has not been selected.
+Drop out successful.
+Course does not exist.
+Course chosen success.
+Course chosen success.
+Course chosen success.
+Page:1
+1.CID:bh00114518,Name:oPo,Teachers:[10032,donma,misaka],Capacity:1/100
+2.CID:bh00114520,Name:tle,Teachers:[donma,kuroko,misaka],Capacity:1/100
+3.CID:bh00114528,Name:ac,Teachers:[donma,misaka],Capacity:1/100
+n-next page, l-last page, q-quit
+Login success.
+Course chosen success.
+Page:1
+1.CID:bh00114518,Name:oPo,Teachers:[10032,donma,misaka],Capacity:2/100
+n-next page, l-last page, q-quit
+Login success.
+Course chosen success.
+Page:1
+1.18181818,winharu
+2.19260817,saten
+3.20200202,indekusu
+n-next page, l-last page, q-quit
+Login success.
+Page:1
+1.CID:BH00114555,Name:oop996,Teachers:[],Capacity:0/100
+2.CID:Bh00114566,Name:oop2333,Teachers:[],Capacity:0/100
+3.CID:bh00114514,Name:oop,Teachers:[10032,misaka],Capacity:0/0
+4.CID:bh00114516,Name:PpP,Teachers:[misaka],Capacity:0/1
+5.CID:bh00114518,Name:oPo,Teachers:[10032,donma,misaka],Capacity:3/100
+6.CID:bh00114520,Name:tle,Teachers:[donma,kuroko,misaka],Capacity:1/100
+7.CID:bh00114522,Name:Oop,Teachers:[donma,misaka],Capacity:0/100
+8.CID:bh00114524,Name:wa,Teachers:[donma,misaka],Capacity:0/100
+9.CID:bh00114528,Name:ac,Teachers:[donma,misaka],Capacity:1/100
+10.CID:bh00114560,Name:oop6666,Teachers:[],Capacity:0/100
+n-next page, l-last page, q-quit
+Course add illegal.
+Course add illegal.
+Course add illegal.
+Course add illegal.
+Course add illegal.
+Course exists.
+Course does not exist.
+Update fail.
+Course does not exist.
+Input illegal.
+Update fail.
+Course does not exist.
+Update fail.
+Update fail.

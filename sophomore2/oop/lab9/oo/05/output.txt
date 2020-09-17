@@ -1,0 +1,8 @@
+1. File f = new File("D:\\java");
+2. System.out.println("当前文件是：" +f);//这条注释不用处理
+3. //文件是否存在
+4. System.out.println("判断是否存在："+f.exists()); /* 这是一段
+5. 注释 */
+6. //是否是文件夹
+7. System.out.println("判断是否是文件夹："+f.isDirectory());
+8. //这个也不需要处理，因为该行的开头是空格

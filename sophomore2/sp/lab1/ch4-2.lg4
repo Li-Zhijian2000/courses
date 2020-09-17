@@ -1,0 +1,23 @@
+model:
+
+    sets:
+        quarters/1..11/: x, k;
+    endsets
+
+    max = @sum(quarters: k * x);
+
+    @sum(quarters: x) <= 2;
+
+    x(1) + x(2) <= 1;
+    x(1) + x(3) + x(4) + x(5) <= 1;
+    x(2) + x(3) + x(6) <= 1;
+    x(4) + x(6) + x(7) + x(8) + x(9) <= 1;
+    x(5) + x(7) + x(10) <= 1;
+    x(8) + x(10) + x(11) <= 1;
+    x(9) + x(11) <= 1;
+
+    data:
+        k = 63, 76, 71, 50, 85, 63, 77, 39, 92, 74, 89;
+    enddata
+
+end

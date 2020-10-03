@@ -1,5 +1,10 @@
-// mod scanner;
-use clap::{App};
+mod scanner;
+mod parser;
+
+use clap::App;
+
+use scanner::Scanner;
+// use parser::parser::Parser;
 
 fn main() {
     let matches = App::new("cc0")
@@ -9,4 +14,21 @@ fn main() {
         .arg_from_usage("-o [file] '输出到指定的文件 file'")
         .get_matches();
 
+    let program = "int a = 1;\n int b = 2; \n a + b * a; ";
+    let (tokens, errors): (Vec<_>, Vec<_>) = Scanner::new(program.chars())
+        .into_iter()
+        .partition(Result::is_ok);
+
+    if errors.len() != 0 {
+        for error in errors {
+            println!("{:?}", error);
+        }
+        return;
+    }
+
+    for token in &tokens {
+        println!("{:?}", token);
+    }
+
+    tokens.into_iter();
 }

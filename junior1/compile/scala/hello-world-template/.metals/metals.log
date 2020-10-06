@@ -1,0 +1,27 @@
+2020.10.06 23:24:36 INFO  started: Metals version 0.9.4 in workspace '/root/se-course/junior1/compile/scala/hello-world-template' for client vscode.
+2020.10.06 23:24:39 INFO  time: initialize in 3.3s
+2020.10.06 23:25:55 INFO  no build target: using presentation compiler with only scala-library
+2020.10.06 23:25:55 WARN  no build target for: /root/se-course/junior1/compile/scala/hello-world-template/src/main/scala/Main.scala
+2020.10.06 23:25:57 INFO  running '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals13052265999246140206/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2020.10.06 23:25:57 INFO  skipping build import with status 'Started'
+2020.10.06 23:26:13 INFO  [info] Loading settings for project hello-world-template-build-build from metals.sbt ...
+2020.10.06 23:26:15 INFO  [info] Loading project definition from /root/se-course/junior1/compile/scala/hello-world-template/project/project
+2020.10.06 23:37:10 INFO  user cancelled sbt bloopInstall
+2020.10.06 23:37:10 INFO  time: ran 'sbt bloopInstall' in 11m12s
+2020.10.06 23:37:10 INFO  2020-10-06 23:37:10,659 shutdown-hooks-run-all ERROR No Log4j 2 configuration file found. Using default configuration (logging only errors to the console), or user programmatically provided configurations. Set system property 'log4j2.debug' to show Log4j 2 internal initialization logging. See https://logging.apache.org/log4j/2.x/manual/configuration.html for instructions on how to configure Log4j 2
+2020.10.06 23:37:10 INFO  build tool exit: 143
+2020.10.06 23:37:45 INFO  shutting down Metals
+2020.10.06 23:38:42 INFO  started: Metals version 0.9.4 in workspace '/root/se-course/junior1/compile/scala/hello-world-template' for client vscode.
+2020.10.06 23:38:45 INFO  time: initialize in 2.9s
+2020.10.06 23:38:47 INFO  skipping build import with status 'Cancelled'
+2020.10.06 23:38:54 INFO  no build target: using presentation compiler with only scala-library
+2020.10.06 23:38:54 WARN  no build target for: /root/se-course/junior1/compile/scala/hello-world-template/src/main/scala/Main.scala
+Oct 06, 2020 11:38:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+Oct 06, 2020 11:38:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4
+2020.10.06 23:44:13 INFO  started: Metals version 0.9.4 in workspace '/root/se-course/junior1/compile/scala/hello-world-template' for client vscode.
+2020.10.06 23:44:16 INFO  time: initialize in 2.69s
+2020.10.06 23:44:17 INFO  skipping build import with status 'Cancelled'
+2020.10.06 23:44:23 INFO  no build target: using presentation compiler with only scala-library
+2020.10.06 23:44:23 WARN  no build target for: /root/se-course/junior1/compile/scala/hello-world-template/src/main/scala/Main.scala

@@ -1,0 +1,8 @@
+IF (A*B *3)
+BEGIN
+	a := 0002
+END
+ELSE
+BEGIN
+	a, b := 3
+END

@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9f2d7ea1-3abd-4063-90dd-1aa41c1565a6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../scala/.bsp/sbt.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../scala/.bsp/sbt.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/.metals/metals.h2.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/.metals/metals.lock.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/.metals/metals.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/build.sbt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/build.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/metals.sbt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/project/metals.sbt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/project/project/target/config-classes/$ce0106f0f0f64a2f3f63$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/project/project/target/config-classes/$ce0106f0f0f64a2f3f63.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/project/project/target/config-classes/$ce0106f0f0f64a2f3f63.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/project/target/streams/_global/_global/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/project/target/streams/_global/_global/csrLogger/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/project/target/streams/_global/csrConfiguration/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/project/target/streams/_global/csrProject/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/input_dsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/project/target/streams/_global/ivyConfiguration/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/project/target/streams/_global/ivySbt/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/project/target/streams/_global/moduleSettings/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/project/target/streams/_global/projectDescriptors/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/project/target/streams/_global/scalaCompilerBridgeScope/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/project/target/streams/_global/update/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/project/target/streams/compile/_global/_global/compileBinaryFileInputs/previous" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/project/target/streams/compile/_global/_global/compileSourceFileInputs/previous" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/project/target/streams/compile/compile/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/project/target/streams/compile/unmanagedClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/project/target/streams/compile/unmanagedJars/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/project/target/streams/runtime/unmanagedClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/project/target/streams/runtime/unmanagedJars/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/target/config-classes/$024f49eb22b952a5ffd9$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/target/config-classes/$024f49eb22b952a5ffd9.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/target/config-classes/$024f49eb22b952a5ffd9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/target/config-classes/$4b56cbfee3fdb0f225f5$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/target/config-classes/$4b56cbfee3fdb0f225f5.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/target/config-classes/$4b56cbfee3fdb0f225f5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/target/config-classes/$88a683d7ffc3bc17f51c$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/target/config-classes/$88a683d7ffc3bc17f51c.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/target/config-classes/$88a683d7ffc3bc17f51c.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/target/config-classes/$f0721e19b37f4b011abd$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/target/config-classes/$f0721e19b37f4b011abd.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/target/config-classes/$f0721e19b37f4b011abd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/target/config-classes/$f481e6599c6523c81142$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/target/config-classes/$f481e6599c6523c81142.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/target/config-classes/$f481e6599c6523c81142.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/target/streams/_global/_global/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/target/streams/_global/csrConfiguration/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/target/streams/_global/csrProject/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/input_dsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/target/streams/_global/ivyConfiguration/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/target/streams/_global/ivySbt/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/target/streams/_global/moduleSettings/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/target/streams/_global/projectDescriptors/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/target/streams/_global/scalaCompilerBridgeScope/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/target/streams/_global/update/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/target/streams/compile/_global/_global/compileBinaryFileInputs/previous" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/target/streams/compile/_global/_global/compileOutputs/previous" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/target/streams/compile/_global/_global/compileSourceFileInputs/previous" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/target/streams/compile/_global/_global/dependencyClasspathFiles/previous" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/target/streams/compile/_global/_global/discoveredMainClasses/data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/target/streams/compile/_global/_global/managedSourcePaths/previous" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/target/streams/compile/compile/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/target/streams/compile/compileIncremental/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/target/streams/compile/compileIncremental/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/target/streams/compile/copyResources/_global/streams/copy-resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/target/streams/compile/copyResources/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/target/streams/compile/dependencyClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/target/streams/compile/exportedProducts/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/target/streams/compile/externalDependencyClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/target/streams/compile/internalDependencyClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/target/streams/compile/managedClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/target/streams/compile/unmanagedClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/target/streams/compile/unmanagedJars/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/target/streams/runtime/dependencyClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/target/streams/runtime/exportedProducts/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/target/streams/runtime/externalDependencyClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/target/streams/runtime/fullClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/target/streams/runtime/internalDependencyClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/target/streams/runtime/managedClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/target/streams/runtime/unmanagedClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/project/target/streams/runtime/unmanagedJars/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/src/main/scala/Main.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/src/main/scala/Test.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/.history" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/scala-2.13/classes/Main$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/scala-2.13/classes/Main$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/scala-2.13/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/scala-2.13/hello-world_2.13-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/scala-2.13/update/update_cache_2.13/inputs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/scala-2.13/update/update_cache_2.13/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/streams/_global/_global/_global/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/streams/_global/_global/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/streams/_global/_global/checkBuildSources/_global/inputFileStamps/previous" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/streams/_global/_global/checkBuildSources/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/streams/_global/csrConfiguration/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/streams/_global/csrProject/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/input_dsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/output_dsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/streams/_global/ivyConfiguration/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/streams/_global/ivySbt/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/streams/_global/moduleSettings/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/streams/_global/projectDescriptors/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/streams/_global/scalaCompilerBridgeScope/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/streams/_global/update/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/streams/compile/_global/_global/compileBinaryFileInputs/previous" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/streams/compile/_global/_global/compileOutputs/previous" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/streams/compile/_global/_global/compileSourceFileInputs/previous" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/streams/compile/_global/_global/dependencyClasspathFiles/previous" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/streams/compile/_global/_global/discoveredMainClasses/data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/streams/compile/_global/_global/managedSourcePaths/previous" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/streams/compile/compile/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/streams/compile/compileIncSetup/_global/streams/inc_compile_2.13.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/streams/compile/compileIncremental/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/streams/compile/compileIncremental/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/streams/compile/copyResources/_global/streams/copy-resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/streams/compile/copyResources/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/streams/compile/dependencyClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/streams/compile/exportedProductJars/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/streams/compile/exportedProducts/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/streams/compile/externalDependencyClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/streams/compile/internalDependencyClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/streams/compile/mainClass/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/streams/compile/managedClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/streams/compile/packageBin/_global/streams/inputs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/streams/compile/packageBin/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/streams/compile/packageBin/_global/streams/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/streams/compile/unmanagedClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/streams/compile/unmanagedJars/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/streams/runtime/dependencyClasspathAsJars/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/streams/runtime/exportedProductJars/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/streams/runtime/exportedProducts/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/streams/runtime/externalDependencyClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/streams/runtime/fullClasspathAsJars/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/streams/runtime/internalDependencyAsJars/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/streams/runtime/managedClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/streams/runtime/unmanagedClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/streams/runtime/unmanagedJars/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/streams/test/_global/_global/compileBinaryFileInputs/previous" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/streams/test/_global/_global/compileOutputs/previous" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/streams/test/_global/_global/compileSourceFileInputs/previous" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/streams/test/_global/_global/definedTestNames/data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/streams/test/_global/_global/dependencyClasspathFiles/previous" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/streams/test/_global/_global/discoveredMainClasses/data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/streams/test/_global/_global/managedSourcePaths/previous" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/streams/test/compile/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/streams/test/compileIncremental/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/streams/test/compileIncremental/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/streams/test/copyResources/_global/streams/copy-resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/streams/test/copyResources/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/streams/test/definedTests/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/streams/test/dependencyClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/streams/test/exportedProducts/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/streams/test/externalDependencyClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/streams/test/fullClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/streams/test/internalDependencyClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/streams/test/loadedTestFrameworks/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/streams/test/managedClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/streams/test/unmanagedClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/hello-world-template/target/streams/test/unmanagedJars/_global/streams/export" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Scala Object" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1iZdAsScDu2Eb4at4mswxcTbGyT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../scala/compiler/build.sbt" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9f2d7ea1-3abd-4063-90dd-1aa41c1565a6" name="Default Changelist" comment="" />
+      <created>1602118908485</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602118908485</updated>
+      <workItem from="1602118909533" duration="198000" />
+      <workItem from="1602120287284" duration="492000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="424" y="204" width="1071" height="680" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602120752779">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="424" y="204" width="1071" height="680" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1602120752779" />
+    <state x="692" y="410" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1602120500037">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="692" y="410" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1080@0.0.1920.1080" timestamp="1602120500037" />
+    <state x="725" y="289" key="FileChooserDialogImpl" timestamp="1602120776470">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="725" y="289" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1602120776470" />
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom" timestamp="1602120778805">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1602120778805" />
+    <state width="1874" height="275" key="GridCell.Tab.0.center" timestamp="1602120778804">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="275" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1602120778804" />
+    <state width="1874" height="275" key="GridCell.Tab.0.left" timestamp="1602120778804">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="275" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1602120778804" />
+    <state width="1874" height="275" key="GridCell.Tab.0.right" timestamp="1602120778805">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="275" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1602120778805" />
+    <state x="491" y="181" key="SettingsEditor" timestamp="1602120309684">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="491" y="181" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1602120309684" />
+  </component>
+</project>
